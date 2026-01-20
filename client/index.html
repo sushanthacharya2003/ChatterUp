@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ChatterUp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="chat-container">
+
+  <!-- LEFT: CHAT -->
+  <div class="chat-box">
+    <div class="chat-header">
+      <span id="welcome">welcome</span>
+      <span id="typing"></span>
+    </div>
+
+    <div id="messages" class="messages"></div>
+
+    <div class="chat-input">
+      <input id="messageInput" placeholder="Enter your message..." />
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <!-- RIGHT: USERS -->
+  <div class="users-box">
+    <div class="users-header">
+      connected users <span id="userCount">0</span>
+    </div>
+    <ul id="usersList"></ul>
+  </div>
+
+</div>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+<script src="chat.js"></script>
+</body>
+</html>
