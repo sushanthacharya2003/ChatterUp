@@ -1,6 +1,4 @@
 ---
-
-```md
 # 💬 ChatterUp – Real-Time Chat Application
 
 ChatterUp is a real-time web-based chat application that enables multiple users to communicate instantly in a shared chat room. It is built using Node.js, Express.js, Socket.IO, and MongoDB, following a modular MVC architecture and ES6 standards.
